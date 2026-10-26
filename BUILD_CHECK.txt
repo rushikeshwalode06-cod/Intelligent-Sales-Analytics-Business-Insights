@@ -1,0 +1,28 @@
+Python syntax compilation: passed
+Unit tests could not be fully run in this environment:
+
+==================================== ERRORS ====================================
+[31m[1m______________________ ERROR collecting test_analytics.py ______________________[0m
+[31mImportError while importing test module '/mnt/data/intelligent_sales_analytics_langchain_gemini/tests/test_analytics.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/usr/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m/mnt/data/intelligent_sales_analytics_langchain_gemini/tests/test_analytics.py[0m:2: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96manalytics[39;49;00m[90m [39;49;00m[94mimport[39;49;00m prepare_sales_data, calculate_kpis, build_business_summary[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'analytics'[0m[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m ../../mnt/data/intelligent_sales_analytics_langchain_gemini/tests/test_analytics.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+[31m[31m[1m1 error[0m[31m in 0.23s[0m[0m
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
