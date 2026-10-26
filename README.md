@@ -174,6 +174,4 @@ Sales Intelligence AI combines interactive analytics with generative AI to make 
 - 🤖 **Generate Insights** — Ask questions and receive AI-powered analysis.
 - 🚀 **Make Informed Decisions** — Use data-driven insights to support business planning.
 
-
-- 🤝 Contribute to making sales analytics more accessible.
-
+![ml](https://github.com/rushikeshwalode06-cod/Intelligent-Sales-Analytics-Business-Insights/blob/main/sales.thumbnail.png?raw=true)
