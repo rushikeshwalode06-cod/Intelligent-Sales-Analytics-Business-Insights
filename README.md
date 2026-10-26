@@ -72,6 +72,10 @@ The application expects sales data containing the following columns:
 - 🧾 **Orders / Rows** — Number of records represented in the filtered dataset.
 - 📦 **Units Sold** — Total quantity sold.
 
+  ![ml](https://github.com/rushikeshwalode06-cod/Intelligent-Sales-Analytics-Business-Insights/blob/main/sales.image.png?raw=true)
+
+---
+
 ### 📊 Interactive Visualizations
 
 - 📅 **Monthly Revenue and Profit** — Tracks performance over time.
